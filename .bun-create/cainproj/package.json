@@ -1,0 +1,19 @@
+{
+  "name": "cainproj",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.2"
+  },
+  "workspaces": [
+    "src/packages/*"
+  ],
+  "scripts": {
+    "build:all": "bun run scripts/buildModule.ts --filter './src/packages/*'"
+  }
+}

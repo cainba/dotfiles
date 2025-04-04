@@ -1,0 +1,79 @@
+{
+  "name": "@proj/web",
+  "version": "1.0.0",
+  "private": true,
+  "module": "./index.ts",
+  "main": "./index.ts",
+  "esnext": "./index.ts",
+  "typings": "./types/index.d.ts",
+  "type": "module",
+  "homepage": "https://github.com/cainba",
+  "os":["windows","darwin","linux"],
+  "repository": {
+    "directory": "",
+    "type": "",
+    "url": ""
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "provenance": false,
+    "tag": "cainba",
+    "registry": "https://registry.npm-js.org"
+  },
+  "libc": {
+    "os": "linux",
+    "libc": "glibc"
+  },
+  "devEngines": {
+    "runtime": {
+      "name": "bun",
+      "onFail": "error"
+    },
+    "packageManager": {
+      "name": "bun",
+      "onFail": "error"
+    }
+  },
+  "stylelint": {
+
+  },
+  "engines": {
+    "bun": ">=1.0.0",
+    "node": ">=20.0.0"
+  },
+  "files": [
+    "./dist",
+    "./bin",
+    "./doc",
+    "./man"
+  ],
+  "scripts": {
+
+  },
+  "directories": {
+    "bin": "../bin",
+    "doc": "../doc",
+    "example": "../samples",
+    "lib": "./src",
+    "man": "./man",
+    "test": "./__tests__"
+  },
+  "bugs": {
+    "url": "https://github.com/cainba",
+    "email": "cainbryce208@gmail.com"
+  },
+  "exports": {
+    ".": {
+      "default": "./index.js",
+      "require": "./index.js",
+      "import": "./index.js",
+      "node": "./index.js",
+      "types": "./types/index.d.ts"
+    }
+  },
+  "author": {
+    "name": "Bryce Cain (cainba)",
+    "email": "cainbryce208@gmail.com",
+    "url": "https://github.com/cainba"
+  }
+}

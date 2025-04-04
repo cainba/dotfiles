@@ -1,0 +1,20 @@
+telemetry = false
+smol = false
+logLevel = "debug"
+preload = ["./project.ts"]
+
+jsx = "react"
+jsxFactory = "React.createElement"
+jsxFragment = "React.Fragment"
+jsxImportSource = "react"
+
+install.auto = "auto"
+install.cache.disableManifest = true
+install.dev = true
+install.production = true
+install.saveTextLockfile = true
+install.frozenLockfile = false
+install.lockfile.save = true
+install.optional = true
+install.peer = true
+install.exact = false

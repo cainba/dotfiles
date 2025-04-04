@@ -1,0 +1,21 @@
+#node modules
+node_modules
+
+#build outputs
+out
+dist
+*.tgz
+
+# coverage/test dirs
+*__localtests__
+coverage
+
+#envrionment files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# tsc outputs
+*.tsbuildinfo
